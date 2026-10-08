@@ -1,0 +1,29 @@
+# Private datasets and generated research artifacts
+/data/
+/analysis/results/
+
+# Local environments, credentials, caches, and editor files
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.pem
+*.key
+
+# Binary datasets and fitted models
+*.sqlite
+*.sqlite3
+*.db
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
